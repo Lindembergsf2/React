@@ -7,6 +7,7 @@ import './Header.css'
 
 function Header() {
     return (
+        <header>
         <div className="interface">
             <a href="">
                 <img src={logo} alt="Logo de Lindemberg Lima"/>
@@ -21,6 +22,7 @@ function Header() {
                     </ul>
                 </nav>
         </div>
+        </header>
     )
             
 }

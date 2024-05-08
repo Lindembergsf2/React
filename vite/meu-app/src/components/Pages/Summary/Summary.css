@@ -1,0 +1,94 @@
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+main section{
+    display: flex;
+}
+
+@media (min-width: 943px){
+    
+}
+
+/* MAIN STYLE */
+
+section.initial-text div.interface {
+    padding: 40px 15%;
+    display: flex;
+    
+}
+
+section.initial-text div.interface .flex{
+    display: flex;
+}
+
+section.initial-text {
+    align-items: center;
+    justify-content: center;
+}
+
+section div.txt-top-site h1 {
+    font-size: 40px;
+    gap: 90px;
+}
+
+section div.img-top-site img {
+    height: 300px;
+    border-radius: 30px;
+    border: 5px solid #2196F3;
+    display: flex;
+}
+
+section h1 span {
+    color: #2196F3;
+    font-size: 80px;
+}
+
+section div.txt-top-site p {
+    padding-right: 30px;
+}
+
+/* RESPONSIVE ADJUSTMENTS */
+
+@media screen and (max-width: 1024px){
+    
+    .logo a img {
+        height: 100px;
+    }
+   main section div.txt-top-site h1 {
+    font-size: 25px;
+   } 
+}
+
+@media screen and (max-width: 890px){
+
+    main section div.flex {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 675px){
+
+    main section div.txt-top-site h1{
+        font-size: 22px;
+     }
+}
+
+
+    @media screen and (max-width: 456px){
+        
+        main section div.txt-top-site h1{
+            font-size: 19px;
+        }
+    }
+
+    @media screen and (max-width: 410px){
+
+        main section div.txt-top-site h1{
+            font-size: 17px;
+        }
+    }

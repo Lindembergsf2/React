@@ -7,6 +7,8 @@ import './App.css'
 
 import Header from './components/Layout/Header/Header'
 import Footer from './components/Layout/Footer/Footer'
+import Summary from './components/Pages/Summary/Summary'
+import Curriculum from './components/Pages/Curriculum/Curriculum'
 
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
     <>
     <Header></Header>
 
+    {/* <Summary></Summary> */}
+    <Curriculum></Curriculum>
 
     <Footer></Footer>
     </>

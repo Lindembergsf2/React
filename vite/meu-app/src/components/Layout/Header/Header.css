@@ -1,31 +1,41 @@
-div.interface{
+header {
+    padding: 40px 4%;
+}
+
+header > .interface {
     display: flex;
-}
-div a img{
-
-    height: 180px;
+    align-items: center;
+    justify-content: space-between;
 }
 
-div a{
+header a{
     color: #5c5c5c;
     text-decoration: none;
-    
+    display: inline-block;
     transition: .2s;
 
 }
 
-div nav ul a:hover {
+header nav ul a:hover {
     color: #ffffff;
     transform: scale(1.15);
 }
 
-div nav ul {
+header nav ul {
     list-style: none;
 }
 
-div nav ul li {
-    
-    padding: 60px 40px;
+header nav ul li {
+    display: inline-block;
+    padding: 0px 40px;
     cursor: pointer;
+}
+
+header nav ul li a.active {
+    color:#ffffff;
+}
+
+header div img{
+    height: 180px;
 }
  
