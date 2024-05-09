@@ -10,32 +10,30 @@ function Curriculum() {
         
         <main>
         
-       
             <center>               
-                    <div className="curriculum-box">
-                        <h1>Profissional</h1>
+                <div className="curriculum-box">
+                    <h1>Profissional</h1>
+                    <ul>
+                        {data.WorkExperience.map((item, index) => (
+                            <li key={index}>
+                                <b>({item.start} - {item.end})</b> {item.work}
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+                  
+                <div className="curriculum-box">
+                    <h1>Acadêmico</h1>
                         <ul>
-                            {data.WorkExperience.map((item, index) => (
+                            {data.AcademicExperience.map((item, index) => (
                                 <li key={index}>
-                                    <b>({item.start} - {item.end})</b> {item.work}
+                                <b>({item.start} - {item.end})</b> {item.course}
                                 </li>
-
-                            
                             ))}
                         </ul>
-                    </div>
-                  
-                    <div className="curriculum-box">
-                    <h1>Profissional</h1>
-                            <p><b>()</b></p>
-                    </div>
-                            <div className="curriculum-box">
-                    <h1>2024-2024</h1>
-                        <h3>Desenvolvedor de Software</h3>
-                            <p>Entrei no mercado de Desenvolvimento de software a partir de um boot camp realizado pelo Comeia Labs em minha região</p>
-            
-                    </div>
-                </center>  
+                </div>
+                            
+            </center>  
         
         </main>
 

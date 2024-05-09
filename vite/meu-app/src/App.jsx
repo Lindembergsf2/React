@@ -9,6 +9,7 @@ import Header from './components/Layout/Header/Header'
 import Footer from './components/Layout/Footer/Footer'
 import Summary from './components/Pages/Summary/Summary'
 import Curriculum from './components/Pages/Curriculum/Curriculum'
+import Portfolio from './components/Pages/Portfolio/Portfolio'
 
 
 function App() {
@@ -19,7 +20,9 @@ function App() {
 
     {/* <Summary></Summary> */}
 
-    <Curriculum></Curriculum>
+    {/* <Curriculum></Curriculum> */}
+
+    <Portfolio></Portfolio>
 
     <Footer></Footer>
     </>

@@ -13,15 +13,20 @@ main  div.curriculum-box h3 {
 main  div.curriculum-box {
     color: #ffffff;
     display: inline-block;
-    padding: 25px 4%;
+    padding: 25px 15%;
     margin: 25px;
     border: 3px solid #2196F3;
     border-radius: 40px;
     text-align: center;
+    gap: 30px;
 
 }
 main div.curriculum-box p {
     text-align: center;
+}
+
+div ul li{
+    list-style: none;
 }
 
 
