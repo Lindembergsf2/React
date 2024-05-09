@@ -1,16 +1,16 @@
-main section {
+main  {
     padding: 60px;
 }
-main div.curriculo-box h1{
+main  div.curriculum-box h1{
     color: #2196F3;
     font-size: 40px;
 }
 
-main div.curriculo-box h3 {
+main  div.curriculum-box h3 {
     margin: 20px 0%;
 }
 
-main div.curriculo-box {
+main  div.curriculum-box {
     color: #ffffff;
     display: inline-block;
     padding: 25px 4%;
@@ -20,38 +20,16 @@ main div.curriculo-box {
     text-align: center;
 
 }
-main div.curriculo-box p {
+main div.curriculum-box p {
     text-align: center;
 }
 
-footer{
-    padding: 10px;
-    
-}
 
 /* RESPONSIVE ADJUSTMENTS */
 
-@media screen and (max-width: 1024px){
-    
-   main section div.txt-top-site h1 {
-    font-size: 25px;
-   } 
-}
 
-@media screen and (max-width: 890px){
-
-
-    main section div.flex {
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-}
 
 @media screen and (max-width: 675px){
-    main div.interface{
-        display: flex;
-        flex-direction: column;
-    }
 
     main section{
         padding: 20px;

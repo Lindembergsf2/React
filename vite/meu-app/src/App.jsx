@@ -18,6 +18,7 @@ function App() {
     <Header></Header>
 
     {/* <Summary></Summary> */}
+
     <Curriculum></Curriculum>
 
     <Footer></Footer>

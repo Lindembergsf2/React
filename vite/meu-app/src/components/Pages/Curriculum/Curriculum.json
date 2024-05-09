@@ -1,9 +1,31 @@
 {
-    "WorkExperience":{
-
-        "year1" : "2018-2020",
-        "work1" : "Eletricista",
-        "experience1" : "Trabalhei como eletricista predial executando projetos eletricos fornecidos por engenheiros ou arquitetos de modo independente como Micro Empreendedor Individual."
-    }
+    "WorkExperience": [{
+        "start" : "2018",
+        "end" : "2020",
+        "work" : "Eletricista (Autônomo MEI)"
+        },
+        {
+        "start" : "2020",
+        "end" : "2024",
+        "work" : "Designer Gráfico (Autônomo MEI)"
+        },
+        {
+        "start" : "2024",
+        "end" : "2024",
+        "work" : "Desenvolvedor de Software (Autônomo MEI)"
+        }
+    ],
+    "AcademicExperience": [{
+        "start" : "2018",
+        "end" : "2020",
+        "Course" : "Eletricista (Autônomo MEI)"
+        },
+        {
+        "start" : "2020",
+        "end" : "2024",
+        "Course" : "Designer Gráfico (Autônomo MEI)"
+        }
+    ]
 
 }
+
