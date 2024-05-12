@@ -1,0 +1,26 @@
+nav a{
+    color: #5c5c5c;
+    text-decoration: none;
+    display: flex;
+    transition: .2s;
+
+}
+
+nav ul a:hover {
+    color: #ffffff;
+    transform: scale(1.15);
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0px 40px;
+    cursor: pointer;
+}
+
+nav ul li a.active {
+    color:#ffffff;
+}
