@@ -1,19 +1,20 @@
-main  {
+main {
     padding: 60px;
 }
-main  div.curriculum-box h1{
+
+main div.curriculum-box h1 {
     color: #2196F3;
     font-size: 40px;
 }
 
-main  div.curriculum-box h3 {
+main div.curriculum-box h3 {
     margin: 20px 0%;
 }
 
-main  div.curriculum-box {
+main div.curriculum-box {
     color: #ffffff;
     display: inline-block;
-    padding: 25px 15%;
+    padding: 25px 6%;
     margin: 25px;
     border: 3px solid #2196F3;
     border-radius: 40px;
@@ -21,11 +22,12 @@ main  div.curriculum-box {
     gap: 30px;
 
 }
+
 main div.curriculum-box p {
     text-align: center;
 }
 
-div ul li{
+div ul li {
     list-style: none;
 }
 
@@ -34,10 +36,10 @@ div ul li{
 
 
 
-@media screen and (max-width: 675px){
+@media screen and (max-width: 675px) {
 
-    main section{
-        padding: 20px;
-     }
+    main section {
+        padding: 5px;
+    }
 
 }

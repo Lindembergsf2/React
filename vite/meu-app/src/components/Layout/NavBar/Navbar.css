@@ -1,4 +1,4 @@
-nav a{
+nav a {
     color: #5c5c5c;
     text-decoration: none;
     display: flex;
@@ -22,5 +22,31 @@ nav ul li {
 }
 
 nav ul li a.active {
-    color:#ffffff;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 890px){
+
+    nav ul li{
+       padding: 0px 20px;
+    }
+}
+
+@media screen and (max-width: 675px){
+
+    nav ul li{
+        padding: 0px 7px;
+     }
+
+}
+
+
+
+@media screen and (max-width: 374px){
+
+    nav ul li{
+        padding: 0px 4px;
+     
+    }
+
 }

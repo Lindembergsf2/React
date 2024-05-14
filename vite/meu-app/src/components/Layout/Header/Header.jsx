@@ -12,13 +12,13 @@ function Header() {
             <center>
                 <div className="interface">
                     <a href="">
-                        <img src={logo} alt="Logo de Lindemberg Lima"/>
+                        <img src={logo} alt="Logo de Lindemberg Lima" />
                     </a>
-                
+
                 </div>
             </center>
         </header>
     )
-            
+
 }
 export default Header;

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { BrowserRouter, Routes, Route} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import './App.css'
 
@@ -17,26 +17,24 @@ function App() {
 
   return (
     <>
-    
-    <div>
-    <Header></Header>
+      
+        <Header></Header>
 
-    <BrowserRouter>
+        <BrowserRouter>
 
-      <NavBar></NavBar>
+          <NavBar></NavBar>
 
-      <Routes>
-          <Route index element={<Summary />} />
-          <Route path="Curriculum" element={<Curriculum />} />
-          <Route path="Portfolio" element={<Portfolio />} />
-          <Route path="Contact" element={<Contact />} />
-      </Routes>
-    </BrowserRouter>
-    </div>
-
-    <Footer></Footer>
+          <Routes>
+            <Route index element={<Summary />} />
+            <Route path="Curriculum" element={<Curriculum />} />
+            <Route path="Portfolio" element={<Portfolio />} />
+            <Route path="Contact" element={<Contact />} />
+          </Routes>
+        </BrowserRouter>
+        
+      <Footer></Footer>
     </>
-    
+
   )
 }
 

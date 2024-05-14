@@ -6,11 +6,11 @@ import data from './Curriculum.json'
 
 
 function Curriculum() {
-    return(
-        
+    return (
+
         <main>
-        
-            <center>               
+
+            <center>
                 <div className="curriculum-box">
                     <h1>Profissional</h1>
                     <ul>
@@ -21,20 +21,20 @@ function Curriculum() {
                         ))}
                     </ul>
                 </div>
-                  
+
                 <div className="curriculum-box">
                     <h1>Acadêmico</h1>
-                        <ul>
-                            {data.AcademicExperience.map((item, index) => (
-                                <li key={index}>
+                    <ul>
+                        {data.AcademicExperience.map((item, index) => (
+                            <li key={index}>
                                 <b>({item.start} - {item.end})</b> {item.course}
-                                </li>
-                            ))}
-                        </ul>
+                            </li>
+                        ))}
+                    </ul>
                 </div>
-                            
-            </center>  
-        
+
+            </center>
+
         </main>
 
     )

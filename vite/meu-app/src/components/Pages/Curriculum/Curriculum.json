@@ -1,31 +1,31 @@
 {
-    "WorkExperience": [{
-        "start" : "2018",
-        "end" : "2020",
-        "work" : "Eletricista (Autônomo MEI)"
+    "WorkExperience": [
+        {
+            "start": "2018",
+            "end": "2020",
+            "work": "Eletricista (Autônomo MEI)"
         },
         {
-        "start" : "2020",
-        "end" : "2024",
-        "work" : "Designer Gráfico (Autônomo MEI)"
+            "start": "2020",
+            "end": "2024",
+            "work": "Designer Gráfico (Autônomo MEI)"
         },
         {
-        "start" : "2024",
-        "end" : "2024",
-        "work" : "Desenvolvedor de Software (Autônomo MEI)"
+            "start": "2024",
+            "end": "2024",
+            "work": "Desenvolvedor de Software (Autônomo MEI)"
         }
     ],
-    "AcademicExperience": [{
-        "start" : "2016",
-        "end" : "2017",
-        "course" : "Montagem e Manutenção de Computadores (UFRPE - PRONATEC)"
+    "AcademicExperience": [
+        {
+            "start": "2016",
+            "end": "2017",
+            "course": "Montagem e Manutenção de Computadores (UFRPE - PRONATEC)"
         },
         {
-        "start" : "2024",
-        "end" : "2024",
-        "course" : "Bootcamp de Desenvolvimento de Software (Usina Academy)"
+            "start": "2024",
+            "end": "2024",
+            "course": "Bootcamp de Desenvolvimento de Software (Usina Academy)"
         }
     ]
-
 }
-

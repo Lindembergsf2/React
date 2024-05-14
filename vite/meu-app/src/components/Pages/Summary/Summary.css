@@ -1,27 +1,27 @@
-
 .interface {
     max-width: 1280px;
     margin: 0 auto;
     color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-main section{
+main section {
     display: flex;
 }
 
-@media (min-width: 943px){
-    
-}
+@media (min-width: 943px) {}
 
 /* MAIN STYLE */
 
 section.initial-text div.interface {
     padding: 40px 15%;
     display: flex;
-    
+
 }
 
-section.initial-text div.interface .flex{
+section.initial-text div.interface .flex {
     display: flex;
 }
 
@@ -53,17 +53,14 @@ section div.txt-top-site p {
 
 /* RESPONSIVE ADJUSTMENTS */
 
-@media screen and (max-width: 1024px){
-    
-    .logo a img {
-        height: 100px;
+@media screen and (max-width: 1024px) {
+
+    main section div.txt-top-site h1 {
+        font-size: 25px;
     }
-   main section div.txt-top-site h1 {
-    font-size: 25px;
-   } 
 }
 
-@media screen and (max-width: 890px){
+@media screen and (max-width: 890px) {
 
     main section div.flex {
         flex-direction: column-reverse;
@@ -71,24 +68,24 @@ section div.txt-top-site p {
     }
 }
 
-@media screen and (max-width: 675px){
+@media screen and (max-width: 675px) {
 
-    main section div.txt-top-site h1{
+    main section div.txt-top-site h1 {
         font-size: 22px;
-     }
+    }
 }
 
 
-    @media screen and (max-width: 456px){
-        
-        main section div.txt-top-site h1{
-            font-size: 19px;
-        }
-    }
+@media screen and (max-width: 456px) {
 
-    @media screen and (max-width: 410px){
-
-        main section div.txt-top-site h1{
-            font-size: 17px;
-        }
+    main section div.txt-top-site h1 {
+        font-size: 19px;
     }
+}
+
+@media screen and (max-width: 410px) {
+
+    main section div.txt-top-site h1 {
+        font-size: 17px;
+    }
+}

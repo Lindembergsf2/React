@@ -1,51 +1,50 @@
-main section div h1 {
+main section {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main section h1 {
     font-size: 60px;
     text-align: center;
     color: #ffffff;
 }
 
-main section div h1 span {
+main section h1 span {
     font-size: 60px;
 }
 
-main section div input.required {
-    margin: 0 auto;
+main section input {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    display: flex;
     padding-top: 40px;
-    
+
 }
 
-main section div form {
-    max-width: 500px;
-    margin: 0 auto;
+
+main section form {
+    width: 50%;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    align-items: center;
     gap: 10px;
-    
 }
 
-main section form div.submit-btn input {
-    margin: 0 auto;
-    width: 100%;
+
+main section form input.submit-btn {
+    width: 104%;
     border: 0;
     padding: 40px 15px;
     border-radius: 10px;
     background-color: #6e6e6e;
-    cursor:pointer;
+    cursor: pointer;
     text-decoration: none;
     color: #ffffff;
     font-size: 18px;
-    
-}
 
-main section div span.span-required {
-    display: none ;
-    font-size: 12px;
-    margin: 5px 0 0 1px;
-    color: #ff0000;
 }
 
 main section form input.required {
@@ -56,16 +55,20 @@ main section form input.required {
     background-color: #6e6e6e;
     color: #ffffff;
     font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main section form textarea {
     border-radius: 10px;
     padding: 20px 15px;
-    border: 0;
     background-color: #6e6e6e;
     font-size: 18px;
     width: 100%;
+    border: 0;
 }
+
 
 main section form ::placeholder {
     color: #b3b3b3;

@@ -1,12 +1,14 @@
 import React from "react";
 
-function PortfolioCard (props){
+import './PortfolioCard.css'
+
+function PortfolioCard(props) {
 
     return (
         <div className="cards">
             <a href={props.link} target="_blank">
-            <img src={props.image} alt={props.title} />
-            <p>{props.title}</p>
+                <img src={props.image} alt={props.title} />
+                <p>{props.title}</p>
             </a>
 
         </div>
