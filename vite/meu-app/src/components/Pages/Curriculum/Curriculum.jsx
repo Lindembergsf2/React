@@ -2,10 +2,13 @@ import React from "react";
 
 import './Curriculum.css'
 
-import data from './Curriculum.json'
+function Curriculum(props) {
+    const { experienciaAcademica, experienciaProfissional } = props.curriculo;
 
+    if(!experienciaAcademica || !experienciaProfissional) {
+        return <p>Carregando...</p>
+    }
 
-function Curriculum() {
     return (
 
         <main>
@@ -14,9 +17,9 @@ function Curriculum() {
                 <div className="curriculum-box">
                     <h1>Profissional</h1>
                     <ul>
-                        {data.WorkExperience.map((item, index) => (
+                        {experienciaProfissional.map((item, index) => (
                             <li key={index}>
-                                <b>({item.start} - {item.end})</b> {item.work}
+                                <b>({item.anoInicio} - {item.anoFim})</b> {item.titulo}
                             </li>
                         ))}
                     </ul>
@@ -25,9 +28,9 @@ function Curriculum() {
                 <div className="curriculum-box">
                     <h1>Acadêmico</h1>
                     <ul>
-                        {data.AcademicExperience.map((item, index) => (
+                        {experienciaAcademica.map((item, index) => (
                             <li key={index}>
-                                <b>({item.start} - {item.end})</b> {item.course}
+                                <b>({item.anoInicio} - {item.anoFim})</b> {item.titulo}
                             </li>
                         ))}
                     </ul>
@@ -39,4 +42,4 @@ function Curriculum() {
 
     )
 }
-export default Curriculum
+export default Curriculum;

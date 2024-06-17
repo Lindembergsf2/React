@@ -60,7 +60,7 @@ function App() {
           <NavBar></NavBar>
 
           <Routes>
-            <Route index element={<Summary informacao={informacoes} />} />
+            <Route index element={<Summary informacoes={informacoes} />} />
             <Route path="Curriculum" element={<Curriculum curriculo={curriculo} />} />
             <Route path="Portfolio" element={<Portfolio portfolio={portfolio}/>} />
             <Route path="Contact" element={<Contact />} />
