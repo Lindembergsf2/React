@@ -12,7 +12,7 @@ function NavBar() {
                 <ul>
                     <li><Link to="/">Inicio</Link></li>
                     <li><Link to="/Curriculum">Curriculo</Link></li>
-                    <li><Link to="/Portfolio">Potfólio</Link></li>
+                    <li><Link to="/Portfolio">Portfólio</Link></li>
                     <li><Link to="/Contact">Contato</Link></li>
                 </ul>
             </nav>
@@ -20,4 +20,4 @@ function NavBar() {
     )
 }
 
-export default NavBar
+export default NavBar;
