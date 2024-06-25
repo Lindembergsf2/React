@@ -16,7 +16,8 @@ function Portfolio({ portfolio }) {
                         key={index}
                         link={item.link}
                         image={item.image}
-                        title={item.title}>
+                        title={item.title}
+                    >
                     </PortfolioCard>
             )}
         </div>

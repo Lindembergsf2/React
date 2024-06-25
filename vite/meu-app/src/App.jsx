@@ -39,9 +39,7 @@ function App() {
 
     const portfolio = await api.get(`/portfolio`);
     console.log(portfolio)
-    setPortfolio({
-      portfolio: portfolio.data
-    });
+    setPortfolio(portfolio.data);
   } catch (error) {
     console.error('Erro ao buscar informações:', error);
   }
