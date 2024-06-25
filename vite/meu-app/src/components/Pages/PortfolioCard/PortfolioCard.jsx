@@ -3,7 +3,7 @@ import React from "react";
 import './PortfolioCard.css'
 
 function PortfolioCard(props) {
-
+    const data = props.curriculo;
 
     return (
         <div className="cards">

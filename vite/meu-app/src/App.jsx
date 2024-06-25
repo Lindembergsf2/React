@@ -37,7 +37,8 @@ function App() {
       experienciaProfissional: experienciaProfissional.data
     });
 
-    const portfolio = await api.get('/portfolio');
+    const portfolio = await api.get(`/portfolio`);
+    console.log(portfolio)
     setPortfolio({
       portfolio: portfolio.data
     });
